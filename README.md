@@ -1,5 +1,5 @@
 # Proyecto-Restaurante
 
-##Integrante:
+Integrante:
 
 -Angela Aquise Santos
