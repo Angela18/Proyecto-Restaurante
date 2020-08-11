@@ -1,5 +1,5 @@
 # Proyecto-Restaurante
 
-Integrante:
+# Creado por:
 
 -Angela Aquise Santos
