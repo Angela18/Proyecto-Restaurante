@@ -5,8 +5,11 @@ El proyecto funciona bajo la ultima version de XAMPP con el servidor apache y ba
 ## Base de Datos:
 
 En la carpeta Restaurante XYZ-DB se encuentra:
+
 La base de datos
+
 El procedimiento insertar
+
 Un insert que contiene las insersiones para cada tabla.
 
 ## Correr la aplicación:
