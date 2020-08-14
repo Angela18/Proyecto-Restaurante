@@ -1,9 +1,11 @@
-use Restaurante1
+use RestauranteXYZ
+
+/* FUNCION CANTIDAD DE EMPLEADOS POR SUCURSAL */
 GO
 
 CREATE FUNCTION CantidadEmpleadosSucursal
 (
-	@id_sucursal as INT
+	@id_sucursal INT
 
 )
 RETURNS INT
@@ -13,7 +15,7 @@ BEGIN
 	DECLARE @cantidad_empleados INT
 	
 	SET @cantidad_empleados=( SELECT COUNT(A.id_empleados)
-	FROM Restaurante1.dbo.empleados A
+	FROM RestauranteXYZ.dbo.empleados A
 	WHERE id_sucursal= @id_sucursal
 	GROUP BY id_sucursal);
 	
